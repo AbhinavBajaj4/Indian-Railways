@@ -1,0 +1,27 @@
+<html>
+<body style=" background-image: url(img/img3.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;">
+
+<?php
+error_reporting(E_ALL ^ E_WARNING);
+require "db.php";
+
+$sql = "DELETE from station where id= ('".$_GET["id"]."')";
+
+if ($conn->query($sql) === TRUE) {
+    echo " Record deleted successfully";
+} else {
+    echo "Error:" . $conn->error;
+}
+
+echo "<br> <a href=\"http://localhost/project/admin_login_1.php\">Go Back to Admin Menu!!!</a> ";
+
+$conn->close();
+?>
+
+
+</body>
+</html>

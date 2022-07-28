@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>IRCTC-Parallel</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/overwrite.css">
+	<link href="css/animate.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" />
+
+  </head>
+  <body>
+	<header id="header">
+        <nav class="navbar navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html" style="text-align: center;">INDIAN RAILWAYS</a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#header">Home</a></li>
+                        <li><a href="#feature">Feature</a></li>
+                        <li><a href="#new_user">New User</a></li>
+                        <li><a href="#edit_user">Edit user</a></li>
+                        <li><a href="#Enquiry_Ticket_Booking">Enquiry/Booking</a></li>
+                        <li><a href="#Ticket_History_Cancellation">Ticket History/Cancellation</a></li>
+                        <li><a href="#Admin_login">Admin</a></li>
+                        <li><a href="#our-team">Agents</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
+
+
+  <img src="img/img11.jpg" alt="">
+
+
+
+	<div id="feature">
+		<div class="container">
+			<div class="row">
+				<div class="text-center">
+					<h3>Features</h3>
+					<p>Providing you the possible BUS and Service<br>To our Customer</p>
+				</div>
+				<div class="col-md-3 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+					<div class="text-center">
+						<div class="hi-icon-wrap hi-icon-effect">
+							<i class="fa fa-laptop"></i>
+							<h2>Punctuality</h2>
+							<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+					<div class="text-center">
+						<div class="hi-icon-wrap hi-icon-effect">
+							<i class="fa fa-heart-o"></i>
+							<h2>Cleanliness</h2>
+							<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.3s">
+					<div class="text-center">
+						<div class="hi-icon-wrap hi-icon-effect">
+							<i class="fa fa-cloud"></i>
+							<h2>AC/NON-AC</h2>
+							<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.3s">
+					<div class="text-center">
+						<div class="hi-icon-wrap hi-icon-effect">
+							<i class="fa fa-camera"></i>
+							<h2>Safety</h2>
+							<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <div id="new_user">
+    <br>
+    <h1>New User</h1>
+    <form action="new_user_form.php" method="post">
+    <div align="center">
+    Kindly enter your credentials!!!<br><br>
+    E-mail ID: <input type="email" name="emailid" required><br><br>
+    Password: <input type="password" name="password" required><br><br>
+    Mobile No.: <input type="text" name="mobileno" id="phone_number" required="required"/><br><br>
+    dob(must be 18/above): <input type="date" name="dob" required><br><br>
+
+    <input type="submit" value="Save"><br><br>
+    </div>
+    </form>
+
+  </div>
+
+  </div>
+  <div id="edit_user">
+    <div class="container">
+      <div class="text-center">
+        <table>
+          <tr>
+            <td  style="padding-left:180px;padding-right:200px;"><a href="change.php"><h3>Edit User</h3></a></td>
+            <td style="padding-left:200px;padding-right:100px;"><a href="forgot.php"><h3>Forgot Password</h3></a></td>
+          </tr>
+        </table>
+      </div>
+</div>
+</div>
+	<div id="Enquiry_Ticket_Booking">
+		<div class="container">
+			<div class="text-center">
+        <a href="enquiry.php"><h3>Enquiry/Ticket Booking</h3></a>
+				<p>Here you can Select train According to your need<br>
+				&comfort</p>
+			</div>
+</div>
+</div>
+
+<div id="Ticket_History_Cancellation">
+  <br>
+  <h1>Ticket History and Cancellation</h1>
+  <form action="user_login.php" method="post">
+  <div align="center">
+  Enter the details:<br><br>
+  Registered Mobile No: <input type="text" name="mno" required><br><br>
+  Registered Password: <input type="password" name="password" required><br><br>
+  <input type="submit" value="Login">
+  <br>
+  </div>
+  </form>
+</div>
+<div id="Admin_login">
+  <br>
+  <h1>Admin Login</h1>
+  <form action="admin_login.php" method="post">
+  <div align="center">
+  	Enter the admin details:<br><br>
+  User ID: <input type="text" name="uid" required><br><br>
+  Password: <input type="password" name="password" required>
+  <br>
+  <br>
+  <input type="submit">
+<br>
+</div>
+</form>
+</div>
+	<div id="our-team">
+		<div class="container">
+			<div class="text-center">
+				<h3>Our Agents</h3>
+				<p>They will help you Solve your Problem<br>& Provide best Facility to you</p>
+			</div>
+			<div class="row">
+				<!-- <div class="col-md-3 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+					<div class="text-center">
+						<img src="img/mini.jpg" alt="">
+						<h2>Abhinav</h2>
+						<h4>Backend Developer</h4>
+						<p>Phone No-7274884000</p>
+					</div>
+				</div> -->
+
+				
+				<div class="col-md-4 wow bounceInDown" data-wow-offset="0" data-wow-delay="0.3s">
+					<div class="text-center">
+						<img src="img/me.jpg" alt="" class = "alpha">
+						<h2>Abhinav</h2>
+						<h4>Backend Developer</h4>
+						<p>Phone No-7274884000</p>
+					</div>
+				</div>
+				<div class="col-md-4 wow bounceInDown" data-wow-offset="0" data-wow-delay="0.3s">
+					<div class="text-center">
+						<img src="img/img17.jpeg" alt="" class = "alpha">
+						<h2>Arsh</h2>
+						<h4>Frontend Developer</h4>
+						<p>Phone No-9803037054</p>
+					</div>
+				</div>
+				
+        <div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+					<div class="text-center">
+						<img src="img/img18.jpeg" alt="" class = "alpha">
+						<h2>Anurag</h2>
+						<h4>Database Designer</h4>
+						<p>Phone No-9888353313</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	<footer>
+		<div id="contact">
+			<div class="container">
+				<div class="text-center">
+					<h3>Contact Us</h3>
+					<p>We are very Glad to Help You</p>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.2s">
+						<h2>Contact us any time</h2>
+						<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+					</div>
+
+					<div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.4s">
+						<h2>Contact Info</h2>
+						<ul>
+							<li><i class="fa fa-home fa-2x"></i> Thapar University, Patiala, India</li><hr>
+							<li><i class="fa fa-phone fa-2x"></i>1111111</li><hr>
+							<li><i class="fa fa-envelope fa-2x"></i> info@xyz.net</li>
+						</ul>
+					</div>
+
+					<div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+					    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                        <div id="errormessage"></div>
+                        <form action="mailto:sb94632@gmail.com" method="post" role="form" class="contactForm">
+                                <div class="form-group">
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                        <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                        <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                        <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                        <div class="validation"></div>
+                                </div>
+
+                            <button type="submit" class="btn btn-theme pull-left">SEND MESSAGE</button>
+                        </form>
+					</div>
+				</div>
+			</div>
+		</div><!--/#contact-->
+
+		<div class="social-icon">
+			<div class="container">
+				<div class="col-md-6 col-md-offset-3">
+					<ul class="social-network">
+						<li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+						<li><a href="#" class="pinterest tool-tip" title="Pinterest"><i class="fa fa-pinterest-square"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="text-center">
+
+		</div>
+	</footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/fliplightbox.min.js"></script>
+	<script src="js/functions.js"></script>
+    <script src="contactform/contactform.js"></script>
+
+</body>
+</html>
